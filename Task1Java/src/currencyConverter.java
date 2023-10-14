@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class currencyConverter {
     public static void main(String[] argc) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Select currency (1 = dollar , 2 = euro): ");
+        System.out.print("Select currency ((1) = dollar , (2) = euro): ");
         int menu = in.nextInt();
         switch (menu) {
             case 1 -> Dollar();
